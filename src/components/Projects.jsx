@@ -50,9 +50,9 @@ function Projects() {
         'GitHub Pages',
       ],
       repositoryUrl:
-        'XXXXXX',
+        'https://github.com/michaelharbst/portfolio',
       liveUrl:
-        'XXXXXX',
+        'https://michaelharbst.github.io/portfolio/',
     },
        {
       id: 3,
