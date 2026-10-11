@@ -1,4 +1,38 @@
-# React + Vite
+# Personal Portfolio
+
+A responsive personal portfolio built with React and Vite. The website presents my technical background, current skills, selected projects, CV and contact information.
+
+## Live website
+
+[View the deployed portfolio](https://michaelharbst.github.io/portfolio/)
+
+## Features
+
+- Responsive single-page layout
+- Navigation between page sections
+- About and skills sections
+- Selected development projects
+- Link to my online CV
+- Contact information
+- Responsive navigation menu using React state
+
+## Technologies
+
+- React
+- JavaScript
+- HTML
+- CSS
+- Vite
+- Git and GitHub
+- GitHub Actions
+- GitHub Pages
+
+## Running the project locally
+
+Install the dependencies:
+
+```bash
+npm install
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
