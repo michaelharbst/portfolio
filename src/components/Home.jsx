@@ -1,5 +1,5 @@
-import michaelPhoto from '../assets/michael.jpg'
-import './home.css'
+import michaelPhoto from '../assets/Michael.jpg'
+import './Home.css'
 
 function Home() {
   return (
