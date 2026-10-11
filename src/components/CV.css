@@ -1,0 +1,74 @@
+.cv-section {
+  padding: 5rem 2rem;
+
+  color: #ffffff;
+  background-color: #263238;
+}
+
+.cv-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.cv-content > div {
+  max-width: 700px;
+}
+
+.cv-content .section-label {
+  color: #e6a58e;
+}
+
+.cv-content h2 {
+  margin: 0;
+
+  font-size: 2.5rem;
+}
+
+.cv-description {
+  margin: 1.25rem 0 0;
+
+  color: #e0e0e0;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.cv-button {
+  flex-shrink: 0;
+  display: inline-block;
+  padding: 0.9rem 1.4rem;
+
+  color: #263238;
+  background-color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 0.3rem;
+
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.cv-button:hover {
+  color: #ffffff;
+  background-color: transparent;
+}
+
+@media (max-width: 768px) {
+  .cv-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 600px) {
+  .cv-section {
+    padding: 4rem 1.5rem;
+  }
+
+  .cv-content h2 {
+    font-size: 2rem;
+  }
+}
