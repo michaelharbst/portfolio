@@ -74,6 +74,26 @@ function Projects() {
       ],
       repositoryUrl:
         'https://github.com/michaelharbst/Asset-tracking' },
+
+    {
+      id: 3,
+      title: 'web/mobile bank account',
+      description:
+        'A responsive dashboard for bankaccount to showcase my projects and skills.',
+      technologies: [
+        'HTML',
+        'CSS',
+        'Bootstrap',
+        'React',
+        'Vite',
+        'LocalStorage',
+        'GitHub Pages',
+      ],
+      repositoryUrl:
+        'https://github.com/michaelharbst/webbank-account',
+      liveUrl:
+        'https://michaelharbst.github.io/webbank-account/',
+    },
   ]
 
   return (
