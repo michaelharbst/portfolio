@@ -4,7 +4,7 @@ import "./Projects.css";
 function Projects() {
   const projects = [
     {
-      id: 'cv',
+      id: "cv",
       order: 4,
       title: "Personal CV Website",
       description:
@@ -14,7 +14,7 @@ function Projects() {
       liveUrl: "https://michaelharbst.github.io/CV/",
     },
     {
-      id: 'bakery',
+      id: "bakery",
       order: 3,
       title: "Bjärreds Brödhus",
       description:
@@ -24,7 +24,7 @@ function Projects() {
       liveUrl: "https://michaelharbst.github.io/bakery-website/",
     },
     {
-      id: 'portfolio',
+      id: "portfolio",
       order: 2,
       title: "Portfolio Website",
       description:
@@ -42,7 +42,7 @@ function Projects() {
       liveUrl: "https://michaelharbst.github.io/portfolio/",
     },
     {
-      id: 'bank account',
+      id: "bank account",
       order: 5,
       title: "bank accounting app",
       description: "Console application to keep track of expenses and income",
@@ -50,7 +50,7 @@ function Projects() {
       repositoryUrl: "https://github.com/michaelharbst/bank-account",
     },
     {
-      id: 'asset tracking',
+      id: "asset tracking",
       order: 5,
       title: "Asset tracking app",
       description: "Console application to keep track of a companies assets",
@@ -59,19 +59,19 @@ function Projects() {
     },
 
     {
-      id: 'webbank account',
+      id: "webbank account",
       order: 1,
       title: "web/mobile bank account",
       description:
         "A responsive dashboard for bankaccount to showcase my projects and skills.",
       technologies: [
-        "HTML",
-        "CSS",
-        "Bootstrap",
         "React",
         "Vite",
+        "Bootstrap",
         "LocalStorage",
-        "GitHub Pages",
+        "Vitest",
+        "React Testing Library",
+        "GitHub Actions",
       ],
       repositoryUrl: "https://github.com/michaelharbst/webbank-account",
       liveUrl: "https://michaelharbst.github.io/webbank-account/",

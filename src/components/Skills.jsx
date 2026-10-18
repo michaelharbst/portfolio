@@ -30,6 +30,8 @@ function Skills() {
         'Vite',
         'Bootstrap',
         'LocalStorage',
+        'Vitest',
+        'React testing library',
         'LINQ',
         'JSON',
         'Azure AI',
@@ -45,8 +47,9 @@ function Skills() {
         'Visual Studio',
         'CI/CD',
         'Quality gates',
-        'Software testing',
+        'Automatic testing',
         'Responsive design',
+        'Github Actions'
       ],
     },
     {
